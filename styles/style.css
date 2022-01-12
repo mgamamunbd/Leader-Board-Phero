@@ -9,80 +9,64 @@ body {
   background-color: #f3f1ff;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  /* align-items: center; */
-}
-main {
-  display: flex;
-  width: 800px;
-  max-width: 70%;
-  margin: 0 auto;
-  width: 1440px;
-  height: 1220px;
 }
 .container {
   background-color: #ffffff;
   width: 870px;
-  justify-content: center;
+  place-items: center;
+  margin: 10px auto;
+  border: 1px solid gray;
 }
 
-/* Header Menu */
-/* header {
-  display: grid;
-  justify-content: center;
-} */
-.header-main .navigation-bar {
-  /* width: 1440px; */
+.navigation-bar {
   height: 94px;
   background-color: #562eff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
   padding: 0px 10px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
-.nav-logo,
-.menu-items,
-.menu-profile {
-  margin-left: 150px;
-  margin-right: 150px;
-}
-.menu-items,
-.menu-profile {
-  margin-left: 150px;
-  margin-right: 150px;
-}
+
 .nav-logo {
   display: flex;
   align-items: center;
-  padding: 0px 10px;
   justify-content: center;
-  width: 50%;
+  padding: 0px 10px;
+  width: 60%;
+  border: 1px solid gray;
+}
+.menubar {
+  align-items: center;
+  margin: -52px -16px;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.menu-items {
+  border: 1px solid gray;
 }
 
 .nav-logo h1 {
   padding-left: 10px;
   color: white;
-  font-weight: 24px;
+  font-weight: 18px;
 }
 .nav-logo img {
-  width: 20%;
-  justify-content: left;
-  align-items: left;
+  width: 6%;
+  justify-content: center;
 }
 .menu-items a {
   text-decoration: none;
   color: white;
   font-weight: 16px;
   padding: 0px 5px;
-  align-items: center;
-  justify-content: center;
 }
 
-.menu-items img {
+.menu-profile img {
   width: 15%;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
 /* Header Menu */
 
@@ -99,6 +83,7 @@ section {
 .section-title {
   color: #562eff;
   font-size: 24px;
+  font-weight: 300;
 }
 .top-players,
 .blogs,
@@ -111,9 +96,7 @@ section {
 .players {
   font-size: 18px;
 }
-/* .top-players {
-  margin: auto;
-} */
+
 .top-players,
 .courses {
   grid-template-columns: repeat(3, 1fr);
@@ -124,7 +107,8 @@ section {
 }
 
 .players,
-.blog {
+.blog,
+.courses {
   display: flex;
   align-items: center;
 }
@@ -153,6 +137,7 @@ section {
 }
 .corse-detail {
   color: #1e1e1e;
+  font-weight: 300;
 }
 .course img {
   width: 200px;
@@ -165,4 +150,11 @@ section {
 }
 .author {
   color: red;
+}
+/* footer area */
+.footer-area {
+  border: 1px solid gray;
+  margin: 0 auto;
+  text-align: center;
+  height: 25px;
 }
