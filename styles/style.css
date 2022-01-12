@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* Body start from here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9f9f9f;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  /* align-items: center; */
+}
+main {
+  width: 800px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/* Header Menu */
+/* header {
+  display: grid;
+  justify-content: center;
+} */
+.header-main .navigation-bar {
+  /* width: 1440px; */
+  height: 94px;
+  background-color: #562eff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.nav-logo,
+.menu-items,
+.menu-profile {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.menu-items,
+.menu-profile {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: center;
+  width: 50%;
+}
+
+.nav-logo h1 {
+  padding-left: 10px;
+  color: white;
+  font-weight: 24px;
+}
+.nav-logo img {
+  width: 20%;
+  justify-content: left;
+  align-items: left;
+}
+.menu-items a {
+  text-decoration: none;
+  color: white;
+  font-weight: 16px;
+  padding: 0px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items img {
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+/* Header Menu */
+
+/* Top Players section start from here */
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+  /* width: 870px;
+  height: 679px;
+  align-items: center; */
+  /* justify-content: center; */
+  /* place-items: center; */
+}
+.section-title {
+  color: violet;
+}
+.top-players,
+.blogs,
+.courses {
+  display: grid;
+  grid-gap: 30px;
+  margin-top: 20px;
+  place-items: center;
+}
+/* .top-players {
+  margin: auto;
+} */
+.top-players,
+.courses {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.players,
+.blog {
+  display: flex;
+  align-items: center;
+}
+.players img {
+  height: 50px;
+  margin-right: 20px;
+}
+.thumbnail img {
+  width: 200px;
+  margin-right: 20px;
+}
+.filled {
+  color: goldenrod;
+  font-size: 0.8em;
+}
+.unfilled {
+  color: lightgray;
+  font-size: 0.8em;
+}
+
+.courses img {
+  width: 200px;
+}
+.courses-info {
+  display: flex;
+}
+.duration {
+  color: red;
+}
+.author {
+  color: red;
+}
