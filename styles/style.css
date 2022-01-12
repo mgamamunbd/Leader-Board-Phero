@@ -18,6 +18,9 @@ body {
   border: 1px solid gray;
 }
 
+.header-main {
+  /* align-items: center; */
+}
 .navigation-bar {
   height: 94px;
   background-color: #562eff;
