@@ -13,11 +13,19 @@ for (const player of playerSection) {
 }
 
 //list item adding by button
-const addListItem = document
+/* const addListItem = document
   .getElementById("add-button")
   .addEventListener("click", function () {
     const listItem = document.createElement("li");
-    listItem.innerHTML = "React";
+    listItem.innerHTML = "";
     const list = document.getElementById("course");
     list.appendChild(listItem);
-  });
+  }); */
+
+document.getElementById("add-btn").addEventListener("click", function () {
+  const listItem = document.createElement("li");
+  listItem.innerHTML =
+    '<input type="text" name="course" placeholder="Enter course name">';
+  const list = document.getElementById("course");
+  list.appendChild(listItem);
+});
